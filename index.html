@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BP Multi-Services - Experts en Climatisation</title>
+    <meta name="description" content="Installation, maintenance et dépannage de systèmes de climatisation et froid. Services professionnels pour particuliers et entreprises.">
+    <meta name="keywords" content="climatisation, installation, maintenance, réparation, froid, Abidjan, Côte d'Ivoire">
+    <link rel="shortcut icon" href="images/logo bp service.jpg" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--custom icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle">
+        <button class="theme-btn" id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- barre de Navigation -->
+    <nav class="navbar navbar-expand-lg  position-fixed navbar-dark w-100">
+        <div class="container ">
+            <a class="navbar-brand" href="#home">
+                <img src="images/logo bp service.jpg" alt="BP Multi-Services" class="logo">
+                <span class="brand-text text-light me-5">BP Multi-Services</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-5 fs-5 fw-bold">
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#about">À propos </a>
+                    </li>
+                    <li class="nav-item dropdown pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                           Nos Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#services">Installation</a></li>
+                            <li><a class="dropdown-item" href="#services">Réparation</a></li>
+                            <li><a class="dropdown-item" href="#services">Maintenance</a></li>
+                            <li><a class="dropdown-item" href="#services">Entretien</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#products">Nos Produits</a>
+                    </li>
+                    <li class="nav-item pe-4 ">
+                        <a class="btn btn-order rounded-3" href="#contact"> Contactez-nous <i
+                                class="bi bi-telephone-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section hero -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Experts en <span class="highlight">Climatisation</span> et Froid Professionnel</h1>
+                        <p class="hero-subtitle">Solutions complètes d'installation, maintenance et dépannage pour particuliers et entreprises. Confort optimal garanti toute l'année.</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="#about" class="btn btn-outline-light">En savoir plus</a>
+                        </div>
+                        <div class="hero-stats">
+                           
+                            
+                          
+                        </div>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <!-- Section à propos de nous -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="images/premium_photo-1682126012378-859ca7a9f4cf.avif" alt="Équipe BP Multi-Services" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2 class="section-title">À propos de BP Multi-Services</h2>
+                        <p class="section-subtitle">Votre partenaire de confiance en climatisation et froid</p>
+                        <p class="about-text">
+                            Notre entreprise est spécialisée dans l'installation, la maintenance et le dépannage de systèmes de climatisation et de froid pour particuliers et professionnels. Avec une équipe qualifiée et expérimentée, nous garantissons des solutions personnalisées et durables.
+                        </p>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <i class="fas fa-home feature-icon"></i>
+                                <div>
+                                    <h4>Résidentiel</h4>
+                                    <p>Solutions pour maisons et appartements</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-building feature-icon"></i>
+                                <div>
+                                    <h4>Commercial</h4>
+                                    <p>Installations pour entreprises et bureaux</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>200+</h3>
+                                <p>Installations réalisées</p>
+                            </div>
+                            <div class="stat">
+                                <h3>100+%</h3>
+                                <p>Satisfaction client</p>
+                            </div>
+                            <div class="stat">
+                                <h3>100+</h3>
+                                <p>Intervention d'urgence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section pourquoi choisir BP Multi-services -->
+    <section class="why-choose-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Pourquoi choisir BP Multi-Services ?</h2>
+                <p class="section-subtitle">Excellence, rapidité et fiabilité à votre service</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h4>Rapidité</h4>
+                        <p>Intervention rapide et efficace. Notre équipe intervient en un temps record pour l'installation, l'entretien et le dépannage.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Disponibilité</h4>
+                        <p>Service disponible 6 jours sur 7. Notre équipe reste à votre écoute pour répondre rapidement à vos besoins.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Fiabilité</h4>
+                        <p>Service sérieux et de qualité, basé sur des années d'expérience et des équipements de pointe.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>Efficacité</h4>
+                        <p>Service rapide et performant grâce à notre expertise et des outils de dernière génération.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bolder">Nos Services</h2>
+                <p class="section-subtitle">Des solutions complètes pour tous vos besoins en climatisation</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/💡 Peut-on installer une clim sans gros travaux _.jpg" alt="Installation" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3>Installation</h3>
+                            <p>Installation professionnelle de climatiseurs split, central ou industriel. Mise en place rapide, sécurisée et conforme aux normes avec optimisation du positionnement pour une performance maximale.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Installation sécurisée</li>
+                                <li><i class="fas fa-check"></i> Conformité aux normes</li>
+                                <li><i class="fas fa-check"></i> Optimisation énergétique</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/des-operateurs-meticuleux-remplissent-de-maniere-experte-le-freon-dans-le-climatiseur-externe-tout-en-utilisant-un-dispositif-de-mesure-du-collecteur-pour-mesurer-de-pres-la-pression-dans-le-systeme-cvc-garantissan.jpg" alt="Réparation" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3>Réparation</h3>
+                            <p>Réparation rapide et fiable de tous types de systèmes de climatisation. Identification rapide des pannes et remise en état pour assurer fraîcheur et confort.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Diagnostic rapide</li>
+                                <li><i class="fas fa-check"></i> Réparation durable</li>
+                                <li><i class="fas fa-check"></i> Garantie pièces</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/hero3.jpg" alt="Maintenance" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3>Maintenance</h3>
+                            <p>Maintenance professionnelle pour assurer la performance et la longévité de vos climatiseurs. Contrôles réguliers et optimisation du rendement énergétique.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Contrôles réguliers</li>
+                                <li><i class="fas fa-check"></i> Prévention des pannes</li>
+                                <li><i class="fas fa-check"></i> Optimisation énergétique</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/What Is Aircon Chemical Wash_ - Aircon Servicing (Singapore) Pte Ltd™.jpg" alt="Entretien" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3>Entretien</h3>
+                            <p>Entretien complet et régulier pour garder vos systèmes en parfait état. Nettoyage, contrôle des filtres et inspection générale de l'installation.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Nettoyage complet</li>
+                                <li><i class="fas fa-check"></i> Contrôle des filtres</li>
+                                <li><i class="fas fa-check"></i> Inspection générale</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nos Produits</h2>
+                <p class="section-subtitle">Équipements de qualité garantis, pièces et main d'œuvre inclus</p>
+            </div>
+            
+            <!-- Climatisation -->
+            <div class="product-category mb-5">
+                <h3 class="category-title">Climatisation</h3>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/plit murale.jpeg" alt="Split Murale" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Split Murale 12000 BTU</h4>
+                                <p>R410 Façade Blanche - Économique et performant</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Économique</span>
+                                    <span class="feature-tag">Silencieux</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/clim armoire.jpeg" alt="Split Armoire" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Split Armoire 24000 BTU</h4>
+                                <p>R410A Économique - Puissance pour grands espaces</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Puissant</span>
+                                    <span class="feature-tag">Économique</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/split aleghe.jpeg" alt="Split Inverter" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Split Inverter Allégé 24000 BTU</h4>
+                                <p>Façade Blanche - Technologie Inverter</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Inverter</span>
+                                    <span class="feature-tag">Éco-friendly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Réfrigérateurs -->
+            <div class="product-category mb-5">
+                <h3 class="category-title">Réfrigération</h3>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/refigerateur.jpeg" alt="Réfrigérateur" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Réfrigérateur 2 Portes</h4>
+                                <p>380L Distributeur d'eau - Grand volume</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Grand volume</span>
+                                    <span class="feature-tag">Distributeur d'eau</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/horizontal.jpeg" alt="Congélateur Vertical" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Congélateur Vertical</h4>
+                                <p>600L No Frost - 5 étagères</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">No Frost</span>
+                                    <span class="feature-tag">5 étagères</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/Congelateur.jpeg" alt="Congélateur Horizontal" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Congélateur Horizontal</h4>
+                                <p>719L Deux portes - Stockage optimal</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Grande capacité</span>
+                                    <span class="feature-tag">Deux portes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Machines à laver -->
+            <div class="product-category">
+                <h3 class="category-title">Lavage</h3>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/machine a laver 1.jpeg" alt="Machine à laver 10kg" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Machine à Laver 10kg</h4>
+                                <p>Chargement frontal Inverter - Économique</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Inverter</span>
+                                    <span class="feature-tag">Frontale</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/LAVER 12.jpeg" alt="Machine à laver 15kg" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Machine à Laver 15kg</h4>
+                                <p>Deux hublots et séchage 7kg - Complète</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Séchage</span>
+                                    <span class="feature-tag">Grande capacité</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/nasco/machine a laver 3.jpeg" alt="Machine à laver 8kg" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h4>Machine à Laver 8kg</h4>
+                                <p>Twin Tub Semi-automatique - Économique</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Twin Tub</span>
+                                    <span class="feature-tag">Économique</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avis Clients Section -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Avis Clients</h2>
+                <p class="section-subtitle">Découvrez ce que nos clients pensent de nos services</p>
+            </div>
+            
+            <div class="testimonials-carousel">
+                <div class="testimonials-container">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                    "Service exceptionnel ! L'équipe de BP Multi-Services a installé notre climatiseur rapidement et professionnellement. Je recommande vivement leurs services."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    
+                                    <div class="author-info">
+                                        <h4>Kouassi Jean</h4>
+                                        <p>Propriétaire, Cocody</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                    "Maintenance parfaite de notre système de climatisation. Techniciens compétents et ponctuels. BP Multi-Services est notre partenaire de confiance."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    
+                                    <div class="author-info">
+                                        <h4>Traoré Fatou</h4>
+                                        <p>Directrice, Marcory</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                    "Installation de climatiseur pour notre bureau. Travail impeccable, prix compétitif et respect des délais. Je recommande BP Multi-Services sans hésitation."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    
+                                    <div class="author-info">
+                                        <h4>Kouame Paul</h4>
+                                        <p>Entrepreneur, Plateau</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                    "Réparation rapide et efficace de notre réfrigérateur. L'équipe est très professionnelle et les prix sont raisonnables. Service client excellent !"
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    
+                                    <div class="author-info">
+                                        <h4>Bamba Aminata</h4>
+                                        <p>Restauratrice, Yopougon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                    "Entretien régulier de nos climatiseurs. BP Multi-Services nous fait économiser de l'énergie et prolonge la durée de vie de nos équipements. Très satisfait !"
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    
+                                    <div class="author-info">
+                                        <h4>Koné Ibrahim</h4>
+                                        <p>Gérant Hôtel, Abidjan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation dots -->
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                </div>
+                
+                <!-- Navigation arrows -->
+                <button class="carousel-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">Demandez votre devis gratuit ou contactez-nous pour toute question</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nom" class="form-label">Nom *</label>
+                                    <input type="text" class="form-control" id="nom" name="nom" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="prenom" class="form-label">Prénom *</label>
+                                    <input type="text" class="form-control" id="prenom" name="prenom" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="adresse" class="form-label">Adresse *</label>
+                                    <input type="text" class="form-control" id="adresse" name="adresse" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Adresse email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="telephone" class="form-label">Téléphone *</label>
+                                    <input type="tel" class="form-control" id="telephone" name="telephone" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="details" class="form-label">Détails des travaux souhaités *</label>
+                                    <textarea class="form-control" id="details" name="details" rows="4" placeholder="Décrivez vos besoins en détail..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-paper-plane me-2"></i>Envoyer la demande
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Adresse</h4>
+                                <p>Abidjan, Cocody, Riviera<br>Côte d'Ivoire</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Téléphone</h4>
+                                <p>+225 07 08 31 28 71</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>paulbotcha2018@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Horaires</h4>
+                                <p>Lun - Ven: 8h - 18h<br>Sam: 8h - 16h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/22508312871?text=Bonjour%2C%20je%20souhaite%20obtenir%20un%20devis%20pour%20mes%20travaux%20de%20climatisation" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+            <span>Contactez-nous</span>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <img src="images/logo bp service.jpg" alt="BP Multi-Services" class="footer-logo">
+                        <h3>BP Multi-Services</h3>
+                        <p>Votre partenaire de confiance en climatisation et froid professionnel.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Installation</a></li>
+                            <li><a href="#services">Réparation</a></li>
+                            <li><a href="#services">Maintenance</a></li>
+                            <li><a href="#services">Entretien</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h4>Produits</h4>
+                        <ul>
+                            <li><a href="#products">Climatisation</a></li>
+                            <li><a href="#products">Réfrigération</a></li>
+                            <li><a href="#products">Machines à laver</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-contact">
+                        <h4>Contact</h4>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt me-2"></i>Abidjan, Cocody Riviera, Côte d'Ivoire</p>
+                            <p><i class="fas fa-phone me-2"></i>+225 07 08 31 28 71</p>
+                            <p><i class="fas fa-envelope me-2"></i>paulbotcha2018@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright">&copy; 2025 BP Multi-Services. Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p class="copyright">Fièrement Conçu par <i class="fas fa- text-danger"></i> Yannooo <span class="text-danger fw-bold">!</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
